@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>DOCaRIoja [Baños de Ebro-Mañueta]</title>
+    <style>
+      body, html{
+        height: 100%;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+      #map{
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+  <script>
+    var iderioja_config = {
+      "init_lat": 42.45534,
+      "init_lng": 2.43230,
+      "capa_geojson": [
+        {"url": "https://raw.githubusercontent.com/mapeandoelrioja/geodatos/main/municipios/municipio-baños_de_ebro-mañueta.geojson",
+          "estilo": {
+            "color": "#ffff00",
+            "weight": 2,
+            "opacity": 0.001
+          }
+        },
+        {"url": "https://raw.githubusercontent.com/mapeandoelrioja/geodatos/main/viñedo/viñedo_baños_de_ebro-mañueta.geojson",
+          "estilo": {
+            "color": "#00ff00",
+            "weight": 1,
+            "opacity": 1
+          }
+        }
+      ],
+      "localizacion": 1,
+      "popup": 2,
+      "fondo_base": "pnoa-ortofoto",
+      "minimapa": 1,
+      "escala": 1
+    }
+  </script>
+  <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
+</html>
