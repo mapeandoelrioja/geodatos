@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "viñedo-estollo",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "provincia": 26, "municipio": 60, "poligono": 502, "parcela": 1139, "recinto": 10, "uso_sigpac": "VI", "sup_sigpac": 1862.1388709045498 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -2.8148334, 42.3299369 ], [ -2.8148561, 42.3299358 ], [ -2.814847, 42.330275 ], [ -2.8142438, 42.3302765 ], [ -2.8142448, 42.3299444 ], [ -2.8148334, 42.3299369 ] ] ] ] } }
+]
+}
