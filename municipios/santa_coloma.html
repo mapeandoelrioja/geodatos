@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>DOCaRioja: Santa Coloma (La Rioja)</title>
+    <style>
+      body, html{
+        height: 100%;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+      #map{
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+  <script>
+    var iderioja_config = {
+      "init_lat": 42.45534,
+      "init_lng": -2.43230,
+      "capa_geojson": [
+        {"nombre": "Límite municipal",
+         "url": "https://raw.githubusercontent.com/mapeandoelrioja/geodatos/main/municipios/municipio-santa_coloma.geojson",
+          "estilo": {
+            "color": "#ffff00",
+            "weight": 1.0,
+            "opacity": 1.0
+          }
+        },
+        {"nombre": "Recintos viñedo (SIGPAC)",
+         "url": "https://raw.githubusercontent.com/mapeandoelrioja/geodatos/main/viñedo/viñedo-santa_coloma.geojson",
+          "estilo": {
+            "color": "#12d412",
+            "weight": 1.2,
+            "opacity": 1.0
+          }
+        }
+      ],
+      "localizacion": 1,
+      "selector_capas": 1,
+      "popup": 2,
+      "minimapa": 1,
+      "fondo_base": "pnoa-ortofoto",
+      "escala": 1
+    }
+  </script>
+  <script src="https://apigeo.larioja.org/v1/iderioja.js"></script>
+</html>
