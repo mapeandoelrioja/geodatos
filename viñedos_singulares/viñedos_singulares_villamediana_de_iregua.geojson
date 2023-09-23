@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "viñedos_singulares_villamediana_de_iregua",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "paraje": "Sínodo los Tollos", "provincia": "La Rioja", "municipio": "Villamediana de Iregua", "poligono": "3", "parcela": "378", "recinto": "1", "uso_sigpac": "VI", "superficie": 2190.2076, "orden": "APA/816/2019", "expediente": "VS-030/2019", "boe": "BOE_181_30072019", "notas": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -2.3828585, 42.4367057 ], [ -2.3834571, 42.4367656 ], [ -2.3839307, 42.4368691 ], [ -2.3842269, 42.4369535 ], [ -2.3842305, 42.4369551 ], [ -2.3842469, 42.4369627 ], [ -2.3842785, 42.4369772 ], [ -2.3843046, 42.4369891 ], [ -2.384376, 42.4370351 ], [ -2.3843734, 42.4370349 ], [ -2.3835772, 42.4369765 ], [ -2.3834786, 42.4369702 ], [ -2.3833709, 42.4369633 ], [ -2.383139, 42.4369484 ], [ -2.3828708, 42.4369313 ], [ -2.3828836, 42.4368416 ], [ -2.3828759, 42.4367684 ], [ -2.3828585, 42.4367057 ] ] ] ] } }
+]
+}
